@@ -18,19 +18,19 @@ else
     if (num <= c)
 {
     result = num;
-    Console.WriteLine($"Second number {(result % e)}");
+    Console.WriteLine($"Third number {(result % e)}");
 }
 else
     if (num <= b)
 {
     result = num / e;
-    Console.WriteLine($"Second number {(result % e)}");
+    Console.WriteLine($"Third number {(result % e)}");
 }
 else
     if (num <= a)
 {
     result = num / d;
-    Console.WriteLine($"Second number {(result % e)}");
+    Console.WriteLine($"Third number {(result % e)}");
 }
 
 
